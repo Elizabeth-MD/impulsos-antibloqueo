@@ -1,0 +1,73 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body {
+    background: #0f172a; /* Azul oscuro espacial */
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+.lab-card {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 400px;
+}
+
+.highlight { color: #38bdf8; }
+
+#output {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    min-height: 3.6rem; /* Evita que el botón salte al cambiar el texto */
+}
+
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+button:active { transform: scale(0.95); }
+
+.add-impulsos {
+    margin: 20px auto;
+    padding: 2rem;
+    width: 600px;
+    background-color: #1e293b;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.add-impulso {
+    padding: 5px;
+}
+#btn-add {
+    width: max-content;
+}
